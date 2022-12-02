@@ -15,8 +15,6 @@
   span {
     display:inline-block;
     color:white;
-    width:100%;
-    text-align:center;
   }
   
   /******************************************
@@ -44,8 +42,15 @@
   }
   .button{
     font-size:50px;
+    color:white;
+  }
+  .button:hover{
+    color:rgb(194, 194, 194);
+    cursor:pointer;
   }
   /******************************************
   /* ADDITIONAL STYLES
   /*******************************************/
-  
+.center{
+  text-align:center;
+}
